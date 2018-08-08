@@ -147,18 +147,20 @@
       $(".submit").on("click", function (event) {
         event.preventDefault(event);
         var newFriend = {
-          name: $('#username').val(''),
-          photoLink: $('#usrPhoto').val(''),
-          Q1: $('#Q1').val(),
-          Q2: $('#Q2').val(),
-          Q3: $('#Q3').val(),
-          Q4: $('#Q4').val(),
-          Q5: $('#Q5').val(),
-          Q6: $('#Q6').val(),
-          Q7: $('#Q7').val(),
-          Q8: $('#Q8').val(),
-          Q9: $('#Q9').val(),
-          Q10: $('#Q10').val()
+          name: $('#username').val(),
+          photoLink: $('#usrPhoto').val(),
+          scores: [
+          $('#Q1').val(),
+          $('#Q2').val(),
+          $('#Q3').val(),
+          $('#Q4').val(),
+          $('#Q5').val(),
+          $('#Q6').val(),
+          $('#Q7').val(),
+          $('#Q8').val(),
+          $('#Q9').val(),
+          $('#Q10').val()
+         ]
         };
         console.log(newFriend);
        

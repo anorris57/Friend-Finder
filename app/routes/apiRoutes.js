@@ -10,6 +10,16 @@ module.exports = function (app) {
     //console.log(req.body);
     var newfriend = req.body;
     friendData.push(newfriend);
+
+    var newFriendScores = newfriend.scores;
+    console.log(newFriendScores);
+    var total = 0;
+    for (var i = 0; i < newFriendScores.length; i++){
+      total += parseInt(newFriendScores[i]);
+      
+    } 
+    console.log(total);
+    
     res.json(newfriend);
   });
 }
