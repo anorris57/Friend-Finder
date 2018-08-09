@@ -1,4 +1,4 @@
-var friendArray = [
+var friends = [
   {
     name: 'Stardust',
     photoLink: 'https://goo.gl/images/g2xePJ',
@@ -66,4 +66,5 @@ var friendArray = [
   
 ];
 
-module.exports = friendArray;
+//export array
+module.exports = friends;
