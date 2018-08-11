@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
 </head>
 
 <body>
@@ -18,23 +19,36 @@
     <h1>Survey Questions</h1>
     <hr>
     <h2>About You</h2>
-    <form action="">
-      <div class="form-group">
-        <label for="usr">Name (Required):</label>
-        <input type="text" class="form-control" id="username" name="username">
-      </div>
-      <div class="form-group">
+    <hr>
+     
+        <label for="name">Name (Required):</label>
+        <input type="text" class="form-control" id="username" name="fname" required>
+        <hr>
+      
         <label for="usr">Link to Photo Image (Required):</label>
-        <input type="text" class="form-control" id="usrPhoto" name="photolink">
-      </div>
+        <input type="text" class="form-control" id="usrPhoto" name="photolink"required>
+    
       <hr>
       <br>
-      <div class="container">
-        <div class="form-group">
+     
+       
           <h3>Question 1</h3>
           <label for="Q1">You like to have your day planned out.</label>
           <select class="form-control w-25" id="Q1" name="Q1">
-            <option value='0' selected>Select an Option</option>
+            <option value="">Select an Option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+
+          <br>
+
+          <h3>Question 2</h3>
+          <label for="Q2">You consider imagination a poor substitute for critical thinking..</label>
+          <select class="form-control w-25" id="Q2" name="Q2">
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -42,105 +56,98 @@
             <option value="5">5 (Strongly Agree)</option>
           </select>
           <br>
-          <h3>Question 2</h3>
-          <label for="Q2">You consider imagination a poor substitute for critical thinking..</label>
-          <select class="form-control w-25" id="Q2" name="Q2">
-            <option value="0" selected>Select an Option</option>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-          </select>
           <h3>Question 3</h3>
           <label for="Q3">Generally speaking you thrive under pressure.</label>
           <select class="form-control w-25" id="Q3" name="Q3">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
+          <br>
           <h3>Question 4</h3>
           <label for="Q4">You find people in general to be annoying.</label>
           <select class="form-control w-25" id="Q4" name="Q4">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
+          <br>
           <h3>Question 5</h3>
           <label for="Q5">You consider your way the correct way.</label>
           <select class="form-control w-25" id="Q5" name="Q5">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
+          <br>
           <h3>Question 6</h3>
           <label for="Q6">You are more like Winnie the Pooh than Eeyore.</label>
           <select class="form-control w-25" id="Q6" name="Q6">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
-          </select>
+          <br>
           <h3>Question 7</h3>
           <label for="Q7">Your idea of fun is a walk on the beach.</label>
           <select class="form-control w-25" id="Q7" name="Q7">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
-          </select>
+          <br>
           <h3>Question 8</h3>
           <label for="Q8">You find intelligence and kindness attractive.</label>
           <select class="form-control w-25" id="Q8" name="Q8">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
-          </select>
+          <br>
           <h3>Question 9</h3>
           <label for="Q9">You feel that people should always tell the truth in a loving manner.</label>
           <select class="form-control w-25" id="Q9" name="Q9">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
-          </select>
+          <br>
           <h3>Question 10</h3>
           <label for="Q10">You will follow your dreams regardless of age.</label>
           <select class="form-control w-25" id="Q10" name="Q10">
-            <option value="0" selected>Select an Option</option>
+            <option value="">Select an Option</option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
           </select>
-        </div><!--closes form group-->
+          <br>
         <button type="submit" class="btn btn-primary submit">Submit</button>
-      </div>
-    </form>
-  </div>
+    
+    
+
 
   <!-- Modal -->
   <div id="resultsModal" class="modal fade" role="dialog">
@@ -167,8 +174,20 @@
 
 
   <script type="text/javascript">
-    $(".submit").on("click", function (event) {
-      event.preventDefault(event);
+
+ 
+    $(".submit").on("click", function () {
+      function validateForm() {
+  var isValid = true;
+  $('.form-control').each(function() {
+    if ( $(this).val() === '' )
+        isValid = false;
+  });
+  return isValid;
+    }
+    //If all required fields are filled
+		if (validateForm() === true)
+		{
       var newFriend = {
         name: $('#username').val(),
         photoLink: $('#usrPhoto').val(),
@@ -195,6 +214,10 @@
           // Show the modal with the best match
           $("#resultsModal").modal("toggle");
         });
+    } else {
+      alert("Please fill out all the fields before hitting submit button.");
+    }
+    return false;
 
     });
 

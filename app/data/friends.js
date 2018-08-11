@@ -1,7 +1,7 @@
 var friends = [
   {
     name: 'Stardust',
-    photoLink: 'https://goo.gl/images/g2xePJ',
+    photoLink: 'https://media.alienwarearena.com/media/tux-r.jpg',
     scores: [
     1,
     2,
@@ -17,7 +17,7 @@ var friends = [
   },
   {
     name:"Ahmed",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    photo:"https://media.alienwarearena.com/media/tux-r.jpg",
     scores:[
         5,
         1,
@@ -33,7 +33,7 @@ var friends = [
   },
   {
     name:"Diamond",
-    photo:"https://goo.gl/images/7SNEAW",
+    photo:"https://media.alienwarearena.com/media/tux-r.jpg",
     scores:[
         5,
         1,
@@ -49,7 +49,7 @@ var friends = [
   },
   {
     name:"James",
-    photo:"https://goo.gl/images/7SNEAW",
+    photo:"https://media.alienwarearena.com/media/tux-r.jpg",
     scores:[
         5,
         1,
@@ -61,6 +61,22 @@ var friends = [
         5,
         4,
         1
+      ]
+  },
+  {
+    name:"Shine",
+    photo:"https://media.alienwarearena.com/media/tux-r.jpg",
+    scores:[
+        3,
+        3,
+        4,
+        3,
+        5,
+        3,
+        4,
+        5,
+        4,
+        4
       ]
   }
   
