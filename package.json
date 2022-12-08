@@ -20,7 +20,7 @@
   "homepage": "https://github.com/anorris57/Friend-Finder#readme",
   "dependencies": {
     "body": "^5.1.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "parser": "^0.1.4"
   }
 }
